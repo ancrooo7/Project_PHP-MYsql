@@ -1,0 +1,20 @@
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+form {
+	border: medium solid #40a8c4;
+	padding: 1.5em;
+}
+.btn-back {
+	background-color: transparent;
+	border: none;
+}
+.btn-primary {
+	border: none;
+	width: 100%;
+	margin: .5em 0 0 0;
+}

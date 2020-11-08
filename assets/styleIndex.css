@@ -1,0 +1,51 @@
+body {
+	display: grid;
+	height: 100vh;
+	grid-template-columns: auto 70% auto;
+	grid-template-rows: 25% 50% 25%;
+}
+.registers {
+	display: flex;
+	flex-direction: column;
+	grid-column: 2/3;
+	grid-row: 1/4;
+	justify-self: center;
+}
+.pagination-insert {
+	display: flex;
+	align-items: center;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+.btn-show {
+	margin: 1em 0;
+	border: none;
+}
+.primarys-pdf {
+	border: none;
+	background-color: transparent;
+}	
+.hidden {
+	display: none;
+}
+.inserting {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 0 2em;
+	border: medium solid #40a8c4;
+	grid-column: 2/3;
+	grid-row: 2/3;
+	background-color: white;
+	justify-self: center;
+	align-items: center;
+}
+.btn-hidden, .btn-secondary {
+	border: none;
+	margin-top: 1em;
+}
+.close-show {
+	border: none;
+	align-self: flex-end;
+	background: transparent;
+}
